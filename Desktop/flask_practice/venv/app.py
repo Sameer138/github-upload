@@ -9,5 +9,4 @@ def submit():
     req_args = request.args
     Username = req_args.get("uname")
     password= req_args.get("psw")
-    return render_template("data.html",username=Username)
-    #return req_args
+    return render_template("data.html",Username=Username)
